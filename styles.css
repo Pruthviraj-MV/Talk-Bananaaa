@@ -1,32 +1,98 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed&display=swap');
+
 :root{
     --primary: #F2C94C;
 }
 
 
 body{
+    /* max-width: 600px; */
+    font-family: 'Sansita Swashed', cursive;
+    font-size: large;
+    margin: auto;
+    text-align: center;
     
+}
+
+.header-style{
+    max-width: none;
+    background-color: var(--primary);
+    border-style: inset;
+    text-align: center;
+    border-bottom-right-radius: 2rem;
+}
+.header-style h1{
+    letter-spacing: 0.2rem;
+    margin-bottom: 0.2rem;
+    margin-top: 0.2rem;
+    font-weight: bolder;
+    font-size: 40px;
+    
+}
+img{
+    display: block;
+    margin: auto;
+    width: 350px;
+    height: auto;
+    padding: 1rem;
+}
+.main-style{
+    display: block;
+    max-width: 500px; 
+    margin: auto;
+    /* width: 70%; */
 }
 textarea {
     width: 80%;
     margin: 1rem;
     height: 10vh;
+    padding: 1rem 1rem;
+    border-radius: 1rem;
+    border: 1px solid black;
+    /* box-sizing: border-box; */
+    font-size: larger;
 
 }
 
 #translate-btn {
+    
+    background-color: var(--primary);
     display: block;
-    margin: auto;
+    margin-left: 2rem ;
+    color: black;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    text-align: center;
+    border: var(--primary);
+    font-size: large;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
 
 }
 
 #output-text {
-    border: 1px solid black;
-    display: block;
-    height: 10vh;
     width: 80%;
-    margin: 1rem;
+    margin: auto;
+    height: 10vh;
+    padding: 1rem 1rem;
+    border-radius: 1rem;
+    border: 1px solid black;
+    text-align: left;
+    font-size: larger;
+
 }
 
-.header-style{
+.footer-style{
+    max-width: none;
+    background-color: var(--primary);
+    border-style: outset;
+    text-align: center;
+    border-top-left-radius: 2rem;
+    margin-top: 2rem;
 
+}
+
+.footer-style a{
+    text-decoration: none;
 }

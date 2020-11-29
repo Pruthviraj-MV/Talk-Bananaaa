@@ -16,7 +16,7 @@ var outputText = document.querySelector("#output-text");
 
 var url = "https://api.funtranslations.com/translate/minion.json"
 
-outputText.innerText = "Minions Code will appears here";
+
 
 //function to create final URL with user input
 function getFinalURL(text){
